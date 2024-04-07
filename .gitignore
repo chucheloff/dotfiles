@@ -1,0 +1,25 @@
+# exclude everything
+*
+
+# add back this file itself
+!.gitignore
+
+
+# single files
+!.tmux.conf
+!.zshrc
+
+
+# routes from root
+!.config/
+!.config/alacritty/
+!.config/alacritty/alacritty.toml
+!.config/alacritty/catppuccin-mocha.toml
+
+!./scripts/
+!./scripts/eepy
+!./scripts/weather
+!./scripts/desc.md
+!./scripts/myip/
+!./scripts/myip/go.mod
+!./scripts/myip/myip.go

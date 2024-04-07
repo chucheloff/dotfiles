@@ -1,0 +1,103 @@
+live_config_reload = true
+
+import = [
+    "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+# [env]
+# TERM = "xterm-256color"
+
+
+[window]
+decorations = "buttonless"
+dynamic_padding = false
+opacity = 1
+dynamic_title = true
+
+[window.dimensions]
+columns = 133
+lines = 40
+
+[window.padding]
+x = 5
+y = 5
+
+[font]
+size = 15
+
+# [font.bold]
+# family = "SFMono Nerd Font"
+# style = "Heavy"
+# 
+# [font.bold_italic]
+# family = "SFMono Nerd Font"
+# style = "Heavy Italic"
+# 
+# [font.italic]
+# family = "SFMono Nerd Font"
+# style = "Medium Italic"
+# 
+# [font.normal]
+# family = "SFMono Nerd Font"
+# style = "Medium"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font.offset]
+x = 0
+y = 0
+[font.glyph_offset]
+x = 0
+y = 0
+
+
+# [font.normal]
+# family = "MesloLGS NF"
+# style = "Regular"
+# 
+# [font.bold]
+# family = "MesloLGS NF"
+# style = "Bold"
+# 
+# [font.italic]
+# family = "MesloLGS NF"
+# style = "Italic"
+# 
+# [font.offset]
+# x = 0
+# y = 0
+# [font.glyph_offset]
+# x = 0
+# y = 0
+# 
+
+[debug]
+persistent_logging = false
+
+[scrolling]
+# How many lines of scrollback to keep,
+# '0' will disable scrolling.
+history = 10000
+
+# Number of lines the viewport will move for every line
+# scrolled when scrollback is enabled (history > 0).
+multiplier = 3
+
+# Faux Scrolling
+#
+# The `faux_multiplier` setting controls the number
+# of lines the terminal should scroll when the alternate
+# screen buffer is active. This is used to allow mouse
+# scrolling for applications like `man`.
+#
+
