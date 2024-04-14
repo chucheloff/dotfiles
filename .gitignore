@@ -2,24 +2,15 @@
 *
 
 # add back this file itself
+
 !.gitignore
 
 
 # single files
+
+!.p10k.zsh
+!.profile
+!.sudo_as_admin_successful
 !.tmux.conf
+!.zshenv
 !.zshrc
-
-
-# routes from root
-!.config/
-!.config/alacritty/
-!.config/alacritty/alacritty.toml
-!.config/alacritty/catppuccin-mocha.toml
-
-!./scripts/
-!./scripts/eepy
-!./scripts/weather
-!./scripts/desc.md
-!./scripts/myip/
-!./scripts/myip/go.mod
-!./scripts/myip/myip.go
