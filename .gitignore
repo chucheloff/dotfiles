@@ -9,8 +9,6 @@
 # single files
 
 !.p10k.zsh
-!.profile
-!.sudo_as_admin_successful
 !.tmux.conf
 !.zshenv
 !.zshrc
