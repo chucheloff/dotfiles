@@ -43,3 +43,5 @@ source ~/.p10k.zsh
 
 export PATH="$PATH:/opt/nvim-linux64/bin"
 
+
+alias lsa="ls -a"
