@@ -8,6 +8,8 @@
 # single files
 !.tmux.conf
 !.zshrc
+!.zshenv
+!.p10k.zsh
 
 
 # routes from root
