@@ -3,6 +3,8 @@ if [[ -z ${TMUX+X}${ZSH_SCRIPT+X}${ZSH_EXECUTION_STRING+X} ]]; then
   exec tmux
 fi
 
+
+
 function zcompile-many() {
   local f
   for f; do zcompile -R -- "$f".zwc "$f"; done
@@ -42,6 +44,10 @@ source ~/.p10k.zsh
 
 
 export PATH="$PATH:/opt/nvim-linux64/bin"
+export PATH="$PATH:/home/chuch/.local/bin"
 
+eval "$(zoxide init zsh)"
 
-alias lsa="ls -a"
+alias lsa="ls -alh"
+alias ll="eza -l -g --icons --git"
+alias llt="eza -1 --icons --tree --git-ignore"
