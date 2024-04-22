@@ -1,9 +1,8 @@
 
-export PATH="/usr/local/sbin:$PATH"
-export PATH="/usr/local/bin:$PATH"
 export PATH="$PATH:/Users/chuch/scripts"
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH="$HOME/.oh-my-zsh"
+export PATH="/usr/local/sbin:$PATH"
 
 
 # If not in tmux, start tmux.
@@ -38,6 +37,7 @@ plugins=(
 	zsh-autosuggestions
 	zsh-syntax-highlighting
 	zsh-completions
+	zsh-vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -55,3 +55,6 @@ export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
 
 alias now="yt-dlp -f 'ba' -x --audio-format mp3"
 
+alias vim="nvim ."
+alias vimc="cd ~/.config/nvim && nvim ."
+alias vimr="nvim ~/"
