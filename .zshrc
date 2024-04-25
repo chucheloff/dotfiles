@@ -51,3 +51,8 @@ eval "$(zoxide init zsh)"
 alias lsa="ls -alh"
 alias ll="eza -l -g --icons --git"
 alias llt="eza -1 --icons --tree --git-ignore"
+
+
+alias vim="nvim ."
+alias vimc="cd ~/.config/nvim && nvim ."
+alias vimr="cd ~ && nvim ."
