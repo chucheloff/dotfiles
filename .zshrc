@@ -52,9 +52,13 @@ export PATH="$PATH:/usr/local/opt/python@3.12/libexec/bin"
 export GOPATH=$HOME/go  
 export GOROOT="$(brew --prefix golang)/libexec"
 export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
+eval "$(zoxide init zsh)"
 
 alias now="yt-dlp -f 'ba' -x --audio-format mp3"
 
 alias vim="nvim ."
 alias vimc="cd ~/.config/nvim && nvim ."
 alias vimr="nvim ~/"
+alias ll="eza"
+alias lsa="eza -a"
+alias ls="eza -la"
